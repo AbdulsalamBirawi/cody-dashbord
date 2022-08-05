@@ -1,0 +1,115 @@
+import { problemsRows } from "./dataProblems";
+
+export const contestesCols = [
+  { field: "id", headerName: "ID", width: 90 },
+  {
+    field: "name",
+    headerName: "Name",
+    width: 200,
+  },
+  {
+    field: "problemsNum",
+    headerName: "Number of Problems",
+    type: "number",
+    width: 200,
+    sortable: true,
+  },
+  {
+    field: "state",
+    headerName: "State",
+    sortable: false,
+    width: 200,
+  },
+  {
+    field: "price",
+    headerName: "Price",
+    sortable: true,
+    with: 200,
+  },
+  {
+    field: "problems",
+  },
+];
+
+export const contestesRows = [
+  {
+    id: "2",
+    name: "contestes 2",
+    problemsNum: problemsRows.length,
+    state: "esay",
+    price: 100,
+    problems: problemsRows,
+  },
+  {
+    id: "1",
+    name: "contestes 1",
+    problemsNum: problemsRows.length,
+    state: "esay",
+    price: 120,
+    problems: problemsRows,
+  },
+  {
+    id: "3",
+    name: "contestes 3",
+    problemsNum: problemsRows.length,
+    state: "meduim",
+    price: 50,
+    problems: problemsRows,
+  },
+  {
+    id: "4",
+    name: "contestes 4",
+    problemsNum: problemsRows.length,
+    state: "meduim",
+    price: 70,
+    problems: problemsRows,
+  },
+  {
+    id: "5",
+    name: "contestes 5",
+    problemsNum: problemsRows.length,
+    state: "hard",
+    price: "-",
+    problems: problemsRows,
+  },
+  {
+    id: "6",
+    name: "contestes 6",
+    problemsNum: problemsRows.length,
+    state: "hard",
+    price: 100,
+    problems: problemsRows,
+  },
+  {
+    id: "7",
+    name: "contestes 7",
+    problemsNum: problemsRows.length,
+    state: "hardcore",
+    price: 200,
+    problems: problemsRows,
+  },
+  {
+    id: "8",
+    name: "contestes 8",
+    problemsNum: problemsRows.length,
+    state: "hardcore",
+    price: 250,
+    problems: problemsRows,
+  },
+  {
+    id: "9",
+    name: "contestes 9",
+    problems: problemsRows.length,
+    state: "monster level",
+    price: 400,
+    problems: problemsRows,
+  },
+  {
+    id: "10",
+    name: "contestes 10",
+    problems: problemsRows.length,
+    state: "monster level",
+    price: 450,
+    problems: problemsRows,
+  },
+];
